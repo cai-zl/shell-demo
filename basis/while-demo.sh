@@ -5,8 +5,6 @@ while [ ${i} -lt 5 ]; do
   let "i++"
 done
 
-# [] 中的条件判断无法使用 >= <=之类的
-# (()) 中的条件判断可以使用
 arr=("S" "H" "E" "L" "L")
 len=${#arr[@]}
 index=0
